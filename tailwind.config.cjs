@@ -1,0 +1,72 @@
+/** @type {import("tailwindcss").Config} */
+module.exports = {
+	content: [
+		"./index.html",
+		"./src/**/*.{html,js,ts,svelte}",
+	],
+	plugins: [
+		require("@tailwindcss/typography"),
+		require("daisyui"),
+	],
+	theme: {
+		extend: {
+			fontSize: {
+				"4xs": ["0.5rem", {lineHeight: "0.75rem"}],
+				"3xs": ["0.75rem", {lineHeight: "0.75rem"}],
+				"2xs": ["0.8rem", {lineHeight: "1rem"}],
+				xs: ["0.825rem", {lineHeight: "1rem"}],
+				sm: ["0.875rem", {lineHeight: "1.25rem"}],
+				base: ["1rem", {lineHeight: "1.5rem"}],
+				lg: ["1.125rem", {lineHeight: "1.75rem"}],
+				xl: ["1.25rem", {lineHeight: "1.75rem"}],
+				"2xl": ["1.5rem", {lineHeight: "2rem"}],
+				"3xl": ["1.875rem", {lineHeight: "2.25rem"}],
+				"4xl": ["2.25rem", {lineHeight: "2.5rem"}],
+				"5xl": ["3rem", {lineHeight: "1"}],
+				"6xl": ["3.75rem", {lineHeight: "1"}],
+				"7xl": ["4.5rem", {lineHeight: "1"}],
+				"8xl": ["6rem", {lineHeight: "1"}],
+				"9xl": ["8rem", {lineHeight: "1"}],
+			},
+			colors: {
+				white: "#ffffff",
+				black: "#000000",
+				red: "#ff0000",
+				orange: "#ff9900",
+				green: "#52b36d",
+				turquoise: "#00c0c0",
+				vividyellow: "#ffd800",
+				yellow: "#ffde56",
+				vividblue: "#21b1ff",
+				blue: "#3996d3",
+				softblue: "#5bcefa",
+				vividpurple: "#905ba1",
+				purple: "#905ba1",
+				vividpink: "#ff218c",
+				hotpink: "#ff69b4",
+				softpink: "#f5a9b8",
+			},
+		},
+	},
+	daisyui: {
+		styled: true,
+		themes: [
+			{
+				vielfalt: {
+					"primary": "#2e495c",
+					"secondary": "#ff0000",
+					"accent": "#d7dbdf",
+					"neutral": "#e1e4e7",
+					"base-100": "#FFFFFF",
+				},
+			},
+			"light", "dark",
+		],
+		base: true,
+		utils: true,
+		logs: true,
+		rtl: false,
+		prefix: "",
+		darkTheme: "dark",
+	},
+};
