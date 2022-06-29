@@ -41,7 +41,7 @@
                 on:mouseleave={() => {borderColor = "red"}}
             >
                 <span>{entry.title}</span>
-                <ul class="bg-base-200 text-primary text-2xs">
+                <ul class="bg-base-200 text-base-content text-2xs">
                     {#each entry.subEntries as subEntry}
                         <li class={colorClassesHover[i % colorClassesHover.length]}>
                             <a href={subEntry.href}>
@@ -72,7 +72,7 @@
                             <span>{entry.title}</span>
                         </div>
                         <div class="collapse-content p-0 peer-checked:p-0">
-                            <ul class="bg-base-200 text-primary">
+                            <ul class="bg-base-200 text-base-content">
                                 {#each entry.subEntries as subEntry}
                                     <li class={colorClassesHover[i % colorClassesHover.length]}>
                                         <a href={subEntry.href}>{subEntry.title}</a></li>

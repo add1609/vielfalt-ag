@@ -54,13 +54,12 @@ module.exports = {
 			{
 				vielfalt: {
 					"primary": "#2e495c",
-					"secondary": "#ff0000",
 					"accent": "#d7dbdf",
 					"neutral": "#e1e4e7",
 					"base-100": "#FFFFFF",
 				},
 			},
-			"light", "dark",
+			"dark",
 		],
 		base: true,
 		utils: true,

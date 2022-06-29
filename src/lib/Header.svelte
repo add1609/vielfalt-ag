@@ -3,10 +3,11 @@
 	import Menu from "./Menu.svelte";
 </script>
 
-<div class="px-5 pt-4 lg:px-[6rem] xl:px-[12rem] 2xl:px-[18rem] sm:px-10 text-primary">
+<div class="px-5 pt-4 lg:px-[6rem] xl:px-[12rem] 2xl:px-[18rem] sm:px-10">
     <div class="navbar flex-wrap gap-x-9 gap-y-3 bg-base-100">
         <div class="flex-auto">
-            <a class="uppercase text-3xl font-bold text-primary md:text-4xl" href="/">
+            <a class="uppercase text-3xl font-bold text-base-content md:text-4xl"
+               href="/">
                 <span>Vielfalt AG</span>
                 <Divider h={"h-[4px]"}
                          klass={"w-[11.6rem] h-[4px] mt-[-4px] sm:h-[5px] md:w-[14rem]"}
@@ -16,7 +17,7 @@
         </div>
     </div>
 </div>
-<div class="bg-base-200 text-primary uppercase font-bold">
+<div class="text-base-content uppercase font-bold bg-base-200">
     <Menu entries="{[
         {
             title: 'Parent 1',
