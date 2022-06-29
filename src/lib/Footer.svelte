@@ -1,10 +1,10 @@
-<script>
-	import {lang} from "./stores.js";
+<script lang="ts">
+    import {lang} from "./stores.js";
 
-	let langValue;
-	lang.subscribe(value => {
-		langValue = value;
-	});
+    let langValue: string;
+    lang.subscribe(value => {
+        langValue = value;
+    });
 </script>
 
 <div class="p-10 lg:px-[6rem] xl:px-[12rem] 2xl:px-[18rem] bg-base-200 text-primary">

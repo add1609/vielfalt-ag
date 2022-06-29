@@ -1,9 +1,7 @@
 <script>
 	import Divider from "./Divider.svelte";
 	import Menu from "./Menu.svelte";
-	import Options2 from "./FontsizeTab.svelte";
 </script>
-
 
 <div class="px-5 pt-4 lg:px-[6rem] xl:px-[12rem] 2xl:px-[18rem] sm:px-10 text-primary">
     <div class="navbar flex-wrap gap-x-9 gap-y-3 bg-base-100">
@@ -16,8 +14,6 @@
                 />
             </a>
         </div>
-
-        <Options2/>
     </div>
 </div>
 <div class="bg-base-200 text-primary uppercase font-bold">

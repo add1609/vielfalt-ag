@@ -1,21 +1,24 @@
-<script>
-	let colors = ["#ff9900", "#ffde56", "#52b36d", "#3996d3", "#905ba1"];
-	let colorClassesHover = [
-		"hover:bg-orange hover:text-white",
-		"hover:bg-yellow",
-		"hover:bg-green hover:text-white",
-		"hover:bg-blue hover:text-white",
-		"hover:bg-purple hover:text-white",
-	];
-	let colorClassesPeer = [
-		"collapse-title peer-checked:bg-orange peer-checked:text-white",
-		"collapse-title peer-checked:bg-yellow",
-		"collapse-title peer-checked:bg-green peer-checked:text-white",
-		"collapse-title peer-checked:bg-blue peer-checked:text-white",
-		"collapse-title peer-checked:bg-purple peer-checked:text-white",
-	];
-	export let entries;
-	let borderColor = "red";
+<script lang="ts">
+    import type entryType from "./types";
+
+    let colors = ["#ff9900", "#ffde56", "#52b36d", "#3996d3", "#905ba1"];
+    let colorClassesHover = [
+        "hover:bg-orange hover:text-white",
+        "hover:bg-yellow",
+        "hover:bg-green hover:text-white",
+        "hover:bg-blue hover:text-white",
+        "hover:bg-purple hover:text-white",
+    ];
+    let colorClassesPeer = [
+        "collapse-title peer-checked:bg-orange peer-checked:text-white",
+        "collapse-title peer-checked:bg-yellow",
+        "collapse-title peer-checked:bg-green peer-checked:text-white",
+        "collapse-title peer-checked:bg-blue peer-checked:text-white",
+        "collapse-title peer-checked:bg-purple peer-checked:text-white",
+    ];
+
+    export let entries: entryType[];
+    let borderColor = "red";
 </script>
 
 <div class="w-full border-b-8 px-5 lg:px-[6rem] xl:px-[12rem] 2xl:px-[18rem] sm:px-10"
