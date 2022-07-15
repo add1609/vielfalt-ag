@@ -1,6 +1,6 @@
 <script>
-	const imgList = [""];
-	const currentImg = imgList[0];
+    const imgList = [""];
+    const currentImg = imgList[0];
 </script>
 
 <div class="background-img hero" style:background-image={currentImg}>

@@ -1,6 +1,6 @@
 <script>
-	import Divider from "./Divider.svelte";
-	import Menu from "./Menu.svelte";
+    import Divider from "./Divider.svelte";
+    import Menu from "./Menu.svelte";
 </script>
 
 <div class="px-5 pt-4 lg:px-[6rem] xl:px-[12rem] 2xl:px-[18rem] sm:px-10">
