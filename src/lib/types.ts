@@ -1,4 +1,4 @@
-interface entryType {
+interface HeaderEntryType {
     title: string;
     subEntries: {
         title: string;
@@ -6,4 +6,4 @@ interface entryType {
     }[];
 }
 
-export default entryType;
+export default HeaderEntryType;

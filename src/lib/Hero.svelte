@@ -1,6 +1,6 @@
 <script>
-    const imgList = [""];
-    const currentImg = imgList[0];
+    const imgList = ["url(01.jpeg)"];
+    let currentImg = imgList[0];
 </script>
 
 <div class="background-img hero" style:background-image={currentImg}>
@@ -18,6 +18,6 @@
 <style>
     .background-img {
         background-repeat: no-repeat;
-        min-height: 80vh;
+        min-height: 84vh;
     }
 </style>

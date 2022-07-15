@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type entryType from "./types";
+    import type HeaderEntryType from "./types";
 
     let colors = ["#ff9900", "#ffde56", "#52b36d", "#3996d3", "#905ba1"];
     let colorClassesHover = [
@@ -17,7 +17,7 @@
         "collapse-title peer-checked:bg-purple peer-checked:text-white",
     ];
 
-    export let entries: entryType[];
+    export let entries: HeaderEntryType[];
     let borderColor = "red";
 </script>
 
